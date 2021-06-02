@@ -3,14 +3,14 @@ const player1 = {
     hp = 100,
     img: 'http://reactmarathon-api.herokuapp.com/assets/scorpion.gif',
     weapon: 'sword',
-    attack: function{console.log('Scorpion' + 'Fight')}
+    attack: function(){console.log('Scorpion' + 'Fight')}
 };
 const playur2 = {  
     name:'Sub Zero',
     hp = 100,
     img: 'http://reactmarathon-api.herokuapp.com/assets/subzero.gif',
     weapon: 'sword',
-    attack: function{console.log('Sub Zero' + 'Fight')}
+    attack: function(){console.log('Sub Zero' + 'Fight')}
 };
 
 function createPlayer(player,name,life)
